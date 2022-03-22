@@ -38,6 +38,11 @@ span{
 
 a{
     text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
 }
 
 /* Background color classes */
