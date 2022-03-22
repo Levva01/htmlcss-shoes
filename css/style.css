@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -39,14 +43,17 @@ a{
 /* Background color classes */
 .back-red{
     background-color: red;
+    color: yellow;
 }
 
 .back-green{
     background-color: green;
+    color: yellow;
 }
 
 .back-yellow{
     background-color: yellow;
+    color: green;
 }
 
 /* Section style */
@@ -58,10 +65,20 @@ section{
 
 img{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-height: 600px;
-    max-width: 600px;
+    max-height: 550px;
+    max-width: 550px;
+}
+
+.scritta{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bolder;
 }
 
